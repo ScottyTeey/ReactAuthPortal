@@ -1,0 +1,22 @@
+[
+  {
+    "Email": "user@betwaygroup.com",
+    "Password": "password123",
+    "Name": "John"
+  },
+  {
+    "Email": "admin@betwaygroup.com",
+    "Password": "admin123",
+    "Name": "Lebogang"
+  },
+  {
+    "Email": "string",
+    "Password": "string",
+    "Name": "string"
+  },
+  {
+    "Email": "lpapo@randmutual.co.za",
+    "Password": "password123",
+    "Name": "Lebogang Jan Papo"
+  }
+]

@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+/* Apply the color to buttons with the class 'custom-button' */
+.custom-button {
+  background-color: #00a826;
+  /* Add other styling properties as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Navbar.css */
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align buttons to the right */
+}
+
+.navbar-buttons .btn {
+  margin-left: 10px; /* Add spacing between buttons */
+}
+
+/* Add specific margin to the right button (register) */
+.navbar-buttons .btn:last-child {
+  margin-left: 20px; /* Adjust the value for the desired spacing */
+}
+
+/* App.css */
+body {
+  background-image: url('../src/img/the-hunch-mobile.jpg'); /* Replace with your image path */
+  background-size: cover; /* Scale the image to cover the entire background */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+}
+
+
+/* Footer.css */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+/* //banner */
+
+.banner {
+  background-color: #f16a24;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.dark-banner {
+  background-color: #1c1b1b22;
+}
+
+.banner-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.banner-links a.active-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 3px;
+  background-color: #00a826; /* Active link color */
+}
+
+.banner-links .nav-link:hover,
+.banner-links .nav-link.active { /* Apply styles to the active link */
+  color: #00a826; /* Change color to green */
+  border-bottom: 2px solid #00a826; /* Add green underline */
+}
+
+.white-button {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.white-button:hover {
+  background-color: #00a826;
+  color: white;
+}

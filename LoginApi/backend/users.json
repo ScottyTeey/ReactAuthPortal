@@ -1,0 +1,12 @@
+[
+  {
+    "Email": "user@betwaygroup.com",
+    "Password": "password123",
+    "Name": "John"
+  },
+  {
+    "Email": "admin@betwaygroup.com",
+    "Password": "admin123",
+    "Name": "Lebogang"
+  }
+]
