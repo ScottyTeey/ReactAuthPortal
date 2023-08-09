@@ -1,5 +1,4 @@
 import React from 'react';
- // Import the updated custom CSS for the footer
 
 const Footer = () => {
   return (
