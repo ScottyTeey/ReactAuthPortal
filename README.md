@@ -1,5 +1,11 @@
 # ReactAuthPortal
 "ReactAuthPortal" is a dynamic web application that seamlessly combines the power of React.js and .NET Core. It offers an engaging landing page with an interactive user interface, intuitive navigation, and responsive design. The portal incorporates a secure and user-friendly login modal, enhancing user experience and data privacy. 
+![image](https://github.com/ScottyTeey/ReactAuthPortal/assets/47355833/6bb66f1a-4408-4669-bd73-859b920ae76b)
+![image](https://github.com/ScottyTeey/ReactAuthPortal/assets/47355833/62b3522f-5f4f-4853-b9ed-ca2ed08603b2)
+![image](https://github.com/ScottyTeey/ReactAuthPortal/assets/47355833/d2b35ae1-9a28-4c0d-92a9-f0e2b2d82263)
+![image](https://github.com/ScottyTeey/ReactAuthPortal/assets/47355833/3da074aa-59ca-4217-a056-25c26ff2f59b)
+
+
 # Frontend
 To run the application you'll need to install some frontend dependencies.
 
